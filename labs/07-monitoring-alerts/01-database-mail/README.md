@@ -132,6 +132,19 @@ EXEC msdb.dbo.sysmail_start_sp;
 Pending messages should be reviewed before performing
 any deletion or cleanup operation.
 
+### SQL Scripts
+
+The following scripts were developed and used during
+the Database Mail laboratory.
+
+- [Database Mail Monitoring Queries](scripts/check-mail-queue.sql)
+
+The scripts include:
+
+- Email delivery status monitoring.
+- Pending email identification.
+- Database Mail queue inspection.
+
 ## 6. Results
 
 - Database Mail configured successfully.
