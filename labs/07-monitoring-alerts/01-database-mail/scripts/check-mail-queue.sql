@@ -37,3 +37,22 @@ GO
 EXEC dbo.sysmail_help_queue_sp
     @queue_type = 'mail';
 GO
+
+-- Query to monitor pending emails
+
+SELECT TOP (5)
+    sent_status,
+    *
+FROM msdb.dbo.sysmail_unsentitems
+ORDER BY send_request_date DESC;
+GO
+
+
+-- Query to check email delivery status
+
+SELECT TOP (5)
+    sent_status,
+    *
+FROM msdb.dbo.sysmail_mailitems
+ORDER BY send_request_date DESC;
+GO
