@@ -54,7 +54,7 @@ My initial studies are based on the **Power Tuning — Tarefas do Dia a Dia de u
 | Module | Topic | Status |
 |---|---|---|
 | 01 | Installation & Configuration | 🔄 In Progress |
-| 02 | Security & Access Management | ⏳ Planned |
+| 02 | Security & Access Management | 🔄 In Progress |
 | 03 | Database Administration | ⏳ Planned |
 | 04 | Backup & Restore | ⏳ Planned |
 | 05 | SQL Server Agent & Jobs | ⏳ Planned |
@@ -136,6 +136,15 @@ Summarise the knowledge acquired and identify possible improvements.
 - PowerShell for DBA automation
 - Advanced SQL Server monitoring
 - High Availability and Disaster Recovery
+
+---
+
+## 🧪 Hands-on Laboratories
+
+| Laboratory | Description | Status |
+|---|---|---|
+| [SQL Server Security & Access Management](labs/02-security-access/) | Authentication, login management, database users and permissions | 🔄 In Progress |
+| [SQL Server Database Mail](labs/07-monitoring-alerts/01-database-mail/) | Database Mail configuration, SMTP connectivity and monitoring | ✅ Completed |
 
 ---
 
