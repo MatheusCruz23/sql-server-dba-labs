@@ -54,7 +54,7 @@ My initial studies are based on the **Power Tuning — Tarefas do Dia a Dia de u
 | Module | Topic | Status |
 |---|---|---|
 | 01 | Installation & Configuration | 🔄 In Progress |
-| 02 | Security & Access Management | 🔄 In Progress |
+| 02 | Security & Access Management | ✅ Completed |
 | 03 | Database Administration | ⏳ Planned |
 | 04 | Backup & Restore | ⏳ Planned |
 | 05 | SQL Server Agent & Jobs | ⏳ Planned |
@@ -143,8 +143,10 @@ Summarise the knowledge acquired and identify possible improvements.
 
 | Laboratory | Description | Status |
 |---|---|---|
-| [SQL Server Security & Access Management](labs/02-security-access/) | Authentication, login management, database users and permissions | 🔄 In Progress |
+| [SQL Server Security & Access Management](labs/02-security-access/) | Authentication, logins, users, roles, GRANT, DENY, REVOKE, stored procedures, views, and cross-database access | 🧪 Documented — Retest Pending |
 | [SQL Server Database Mail](labs/07-monitoring-alerts/01-database-mail/) | Database Mail configuration, SMTP connectivity and monitoring | ✅ Completed |
+
+---
 
 ---
 
